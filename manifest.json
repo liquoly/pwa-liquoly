@@ -1,0 +1,70 @@
+{
+  "name": "liquoly",
+  "short_name": "liquoly",
+  "description": "Tu suite digital de confianza para bares, restaurantes y negocios HORECA.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "browser"],
+  "background_color": "#3a3a3a",
+  "theme_color": "#1e33af",
+  "orientation": "portrait-primary",
+  "lang": "es-ES",
+  "dir": "ltr",
+  "id": "/?source=pwa",
+  "categories": ["business", "finance", "food", "shopping", "utilities"],
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/maskable-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Catálogo",
+      "short_name": "Catálogo",
+      "url": "/collections/all",
+      "icons": [
+        {
+          "src": "/assets/catalog.svg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Mis Pedidos",
+      "short_name": "Pedidos",
+      "url": "/account",
+      "icons": [
+        {
+          "src": "/assets/orders.svg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contacto",
+      "short_name": "Contacto",
+      "url": "/pages/contacto",
+      "icons": [
+        {
+          "src": "/assets/contact.svg",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
